@@ -1,0 +1,10 @@
+
+=== run started 2026-10-28 00:06:54 ===
+GISTEMP: Created 2026-09-08 02:31:15 by SBBX_to_nc 2.0 - ILAND=1200, IOCEAN=NCDC/ER5, Base: 1951-1980
+window: 1880-01-01 to 2023-12-01 (1728 months)
+indices: nao_jones.txt, nino34.txt
+R version 4.5.1 (2025-06-13), mgcv 1.9.4
+complete cells: 10674 of 16200 | rows to do now: 90 | cores: 7 | k = 20 refit where an index edf > 6
+AR(1): rho chosen by REML on [0, 0.95], tolerance 0.005
+run finished 2026-10-28 04:12:51, 4.10 h | OUT_CSV: 16200 rows | fitted 10674, fit failed 0, incomplete 5526, error 0
+k = 20 refits: 8, max |edf(k = 20) - edf| = 1.76 | rho_left_sw within +-0.05 in 64 % of fitted cells
